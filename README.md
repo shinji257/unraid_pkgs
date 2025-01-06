@@ -1,3 +1,8 @@
+Usage of packages:
+Download the packages and place them in the extra folder on the flash drive.  If you are doing this from a system currently running this is at `/boot/extra`.
+
+To install the package run `installpkg tgz_file`
+
 |Package|Depends|Version|Description|
 |-|-|-|-|
 |jdupes|libjodycode|1.28.0|jdupes is a program for identifying and taking actions upon duplicate files. This fork of fdupes known as 'jdupes' is heavily modified from and improved over the original. jdupes IS NOT a drop-in compatible replacement for fdupes! Option availability and meanings differ between the two programs.|
