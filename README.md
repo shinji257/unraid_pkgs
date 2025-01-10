@@ -2,6 +2,7 @@ Usage of packages:
 Download the packages and place them in the extra folder on the flash drive.  If you are doing this from a system currently running this is at `/boot/extra`.
 
 To install the package run `installpkg tgz_file`
+All packages built using scripts from SlackBuilds.org unless otherwise specified.
 
 |Package|Depends|Optional|Version|Description
 |-|-|-|-|-
@@ -40,6 +41,7 @@ To install the package run `installpkg tgz_file`
 |pigz|||2.8|pigz (Parallel Implementation of GZip)<br><br>pigz, which stands for Parallel Implementation of GZip, is a fully functional replacement for gzip that utilizes multiple processors and CPU cores when compressing data. pigz was written by Mark Adler, and uses zlib and pthread libraries.
 |plocate|||1.1.23|plocate (a much faster locate)<br><br>plocate is a locate based on posting lists. Compared to mlocate, it is much faster, and its index is much smaller. updatedb speed is similar (or you can convert mlocate's index to plocate format using plocate-build). It supports most mlocate options; see --help or the man page for more information.
 |powershell|||7.4.6|PowerShell is a task-based command-line shell and scripting language built on .NET. PowerShell helps system administrators and power-users rapidly automate tasks that manage operating systems (Linux, macOS, and Windows) and processes.<br><br>After installing, you can start using PowerShell by typing "pwsh" in the Terminal.
+|powertop|||2.15|powertop (tool for analyzing system power usage)<br><br>PowerTOP is a utility that collects data from your system and presents an overview to help optimize power savings. PowerTOP will identify which tunables and software components are the biggest offenders in slurping up your battery time. PowerTOP updates its display frequently so that you can directly see the impact of any changes you are making.<br><br>Built using https://mirrors.slackware.com/slackware/slackware-current/source/ap/powertop/powertop.SlackBuild
 |python3-pkgconfig|||1.5.5|python3-pkgconfig: module to interface with the pkg-config tool
 |rar|||5.5.0|Rar is a powerful tool for processing RAR archives.<br><br>This is a shareware program.  If you would like to continue using RAR after 40 days, you will have to purchase a license.  See license.txt in the docs directory for more details.
 |rar2fs|||1.29.6|rar2fs is a FUSE based file system that can mount a source RAR archive/volume or a directory containing any number of RAR archives and read the contents as regular files on-the-fly. Non-archived files located in the source directory are handled transparently.
