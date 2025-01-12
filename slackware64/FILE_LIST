@@ -1,8 +1,7 @@
-drwxr-xr-x 52 root root     4096 2025-01-11 21:33 .
+drwxr-xr-x 52 root root     4096 2025-01-11 21:47 .
 drwxr-xr-x  2 root root     4096 2025-01-11 21:27 ./7zip
 -rw-r--r--  1 root root  1438307 2025-01-11 21:27 ./7zip/7zip-24.09-x86_64-1_SBo.tgz
--rw-r--r--  1 root root     3948 2025-01-11 21:27 ./CHECKSUMS.md5
--rw-r--r--  1 root root       53 2025-01-11 21:33 ./FILE_LIST
+-rw-r--r--  1 root root       53 2025-01-11 21:47 ./FILE_LIST
 drwxr-xr-x  2 root root     4096 2025-01-11 21:27 ./aria2
 -rw-r--r--  1 root root  1767531 2025-01-11 21:27 ./aria2/aria2-1.37.0-x86_64-1_SBo.tgz
 drwxr-xr-x  2 root root     4096 2025-01-11 21:27 ./audit
