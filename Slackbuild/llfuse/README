@@ -6,3 +6,7 @@ it can be used by other projects as well.
 
 The SlackBuild detects presence of Python 3.x and if found, then also
 bindings for Python 3.x are built.
+
+This is a modified slackbuild for a newer version of llfuse than available
+on SlackBuilds.org.  Original maintainer information maintained although
+they did not do this update.  Updated by shinji257
