@@ -13,7 +13,7 @@ d33fbee350a768f4ce3ab9c664311f56  ./borgbackup/borgbackup-1.2.8-x86_64-2_SBo.tgz
 2ba16c27a98ecfed5b1d5043247c7652  ./exiftool/exiftool-13.00-noarch-1_SBo.tgz
 869791aa334b742a0198eefbeed25bb7  ./fastfetch/fastfetch-2.34.0-x86_64-1_SBo.tgz
 1819824fac87b96665f62d43cfd9f72d  ./fdupes/fdupes-1.6.1-x86_64-1_SBo.tgz
-a50fca8408c15fca2c55902b6921b122  ./FILE_LIST
+8395c55a4229022be2b2e85d5ee7b36b  ./FILE_LIST
 b904959464463a0f144a956da40e3eb1  ./fio/fio-3.38-x86_64-1_SBo.tgz
 9d4ce2732aa948e1482772a40f834f1f  ./fish/fish-3.7.1-x86_64-1_SBo.tgz
 83c5df2a72fda11689455850e045f1dd  ./fzf/fzf-0.57.0-x86_64-1_SBo.tgz
@@ -21,6 +21,7 @@ b904959464463a0f144a956da40e3eb1  ./fio/fio-3.38-x86_64-1_SBo.tgz
 4882d60bb8e31955667c2ac24750bd7f  ./iotop-c/iotop-c-1.26-x86_64-1_SBo.tgz
 3400a71fb88b56c3a8eee3874caf493d  ./ipmitool/ipmitool-1.8.19-x86_64-1_SBo.tgz
 b669e6197e84d99d540eaf7b413d192a  ./jdupes/jdupes-1.28.0-x86_64-2_SBo.tgz
+a0aed28d34fad676e84a29ecca274c4a  ./libffi/libffi-3.4.6-x86_64-1.txz
 c8a0f6b9311803e2c95ff0f503a1891b  ./libjodycode/libjodycode-3.1.1-x86_64-2_SBo.tgz
 123e3cb07aba553883d4355a8d0c3fb8  ./libmediainfo/libmediainfo-24.12-x86_64-1_SBo.tgz
 f5594661a795986cc3d3dd16c7c6ed7e  ./libzen/libzen-0.4.41-x86_64-1_SBo.tgz
@@ -56,4 +57,5 @@ e35aa0d249e72a0d92f5685997e40e76  ./sysvinit-functions/sysvinit-functions-8.53-x
 a697e9a8aa8d4704ea8858914f2e2d7d  ./tmux/tmux-3.5a-x86_64-1.txz
 d545fdb90916aff41ff37639c60ddefb  ./UASM/UASM-2.57-x86_64-1_SBo.tgz
 574838409404e3e101d65c5b97d22640  ./unrar/unrar-6.2.12-x86_64-1_SBo.tgz
+3ebd7d08c4ff51ca255d1c37bcbcfbd3  ./vim/vim-9.1.1006-x86_64-1.txz
 ace005db7241f18470dfa3746011b5e7  ./zsh/zsh-5.9-x86_64-1.txz
