@@ -1,4 +1,4 @@
-Usage of packages:
+# Usage of packages
 
 Download the packages and place them in the extra folder on the flash drive.  If you are doing this from a system currently running this is at `/boot/extra`.
 
@@ -6,7 +6,7 @@ To install the package run `installpkg tgz_file`
 
 All packages built using scripts from SlackBuilds.org or pulled from official repos unless otherwise specified.
 
-Usage in un-get:
+# Usage in un-get
 
 If not already please install the un-get plugin from https://github.com/ich777/un-get
 Then modify `/boot/config/plugins/un-get/sources.list` and add the following line.
