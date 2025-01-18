@@ -47,7 +47,8 @@ find ${1} -exec ls -dl${SIZEOP} --full-time {} \; \
 if [ -f ${LISTFILE} ]; then
   rm -f ${LISTFILE}
 fi
-sort +7d templist.txt >> ${LISTFILE}
+#sort +7d templist.txt >> ${LISTFILE}
+sort -k 7d templist.txt >> ${LISTFILE}
 rm templist.txt
 sed -i '/templist.txt/d' ${LISTFILE}
 sed -i '/buildlist.sh/d' ${LISTFILE}

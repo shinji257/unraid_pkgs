@@ -1,0 +1,105 @@
+#!/bin/bash
+
+# Slackware build script for borgbackup
+
+# Copyright 2024 Andrzej Telszewski, Koszalin
+# All rights reserved.
+#
+# Redistribution and use of this script, with or without modification, is
+# permitted provided that the following conditions are met:
+#
+# 1. Redistributions of this script must retain the above copyright
+#    notice, this list of conditions and the following disclaimer.
+#
+#  THIS SOFTWARE IS PROVIDED BY THE AUTHOR "AS IS" AND ANY EXPRESS OR IMPLIED
+#  WARRANTIES, INCLUDING, BUT NOT LIMITED TO, THE IMPLIED WARRANTIES OF
+#  MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE ARE DISCLAIMED.  IN NO
+#  EVENT SHALL THE AUTHOR BE LIABLE FOR ANY DIRECT, INDIRECT, INCIDENTAL,
+#  SPECIAL, EXEMPLARY, OR CONSEQUENTIAL DAMAGES (INCLUDING, BUT NOT LIMITED TO,
+#  PROCUREMENT OF SUBSTITUTE GOODS OR SERVICES; LOSS OF USE, DATA, OR PROFITS;
+#  OR BUSINESS INTERRUPTION) HOWEVER CAUSED AND ON ANY THEORY OF LIABILITY,
+#  WHETHER IN CONTRACT, STRICT LIABILITY, OR TORT (INCLUDING NEGLIGENCE OR
+#  OTHERWISE) ARISING IN ANY WAY OUT OF THE USE OF THIS SOFTWARE, EVEN IF
+#  ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
+
+# 20230809 bkw: Modified by SlackBuilds.org, BUILD=2:
+# - stop the build from failing if Sphinx is installed but
+#   guzzle_sphinx_theme is not.
+# - always include man pages in package (upstream kindly included
+#   prebuilt ones in the tarball).
+# - clean up optional deps for HTML docs in README. python3-attrs
+#   is not required, and alabaster + imagesize are already required
+#   deps for Sphinx.
+# - make slack-desc say whether the HTML docs are included.
+
+cd $(dirname $0) ; CWD=$(pwd)
+
+PRGNAM=borgbackup
+VERSION=${VERSION:-1.4.0}
+BUILD=${BUILD:-1}
+TAG=${TAG:-_s257}
+PKGTYPE=${PKGTYPE:-tgz}
+
+if [ -z "$ARCH" ]; then
+  case "$( uname -m )" in
+    i?86) ARCH=i586 ;;
+    arm*) ARCH=arm ;;
+       *) ARCH=$( uname -m ) ;;
+  esac
+fi
+
+if [ ! -z "${PRINT_PACKAGE_NAME}" ]; then
+  echo "$PRGNAM-$VERSION-$ARCH-$BUILD$TAG.$PKGTYPE"
+  exit 0
+fi
+
+TMP=${TMP:-/tmp/SBo}
+PKG=$TMP/package-$PRGNAM
+OUTPUT=${OUTPUT:-/tmp}
+
+# 20230810 bkw: no flags or libdirsuffix, setup.py knows what to do.
+
+set -eu
+
+rm -rf $PKG
+mkdir -p $TMP $PKG $OUTPUT
+cd $TMP
+
+rm -rf $PRGNAM-$VERSION
+tar xvf $CWD/$PRGNAM-$VERSION.tar.gz
+#cd $PRGNAM-$VERSION
+#Why name folder with borg instead of borgbackup inside archive??? Why? (insert Jackie Why Meme ascii art)
+cd borg-$VERSION
+
+chown -R root:root .
+chmod -R a-st,u+rwX,go-w+rX .
+
+python3 setup.py install --root=$PKG
+
+# 20230810 bkw: faster than the find|file|xargs template stuff.
+find $PKG/usr/lib*/python* -name '*.so' | xargs strip --strip-unneeded
+
+PKGDOC=$PKG/usr/doc/$PRGNAM-$VERSION
+mkdir -p $PKGDOC
+
+# 20230809 bkw: stop the build from failing if Sphinx is installed
+# but guzzle_sphinx_theme is not. upstream's README documents this, even.
+make -C docs html && cp -a docs/_build/html $PKGDOC
+
+# 20230810 bkw: for the slack-desc:
+WITH_HTML=WITHOUT
+[ -d $PKGDOC/html ] && WITH_HTML=WITH
+
+# 20230809 bkw: upstream ships prebuilt man pages, always install.
+mkdir -p $PKG/usr/man/man1
+cp -a docs/man/*.1 $PKG/usr/man/man1
+gzip -9 $PKG/usr/man/man1/*
+
+cp -a AUTHORS CHANGES.rst LICENSE README.rst SECURITY.md $PKGDOC
+cat $CWD/$PRGNAM.SlackBuild > $PKGDOC/$PRGNAM.SlackBuild
+
+mkdir -p $PKG/install
+sed "s,@WITH_HTML@,$WITH_HTML," < $CWD/slack-desc > $PKG/install/slack-desc
+
+cd $PKG
+/sbin/makepkg -l y -c n $OUTPUT/$PRGNAM-$VERSION-$ARCH-$BUILD$TAG.$PKGTYPE
