@@ -36,7 +36,7 @@ cd $(dirname $0) ; CWD=$(pwd)
 
 PRGNAM=borgbackup
 VERSION=${VERSION:-1.4.0}
-BUILD=${BUILD:-1}
+BUILD=${BUILD:-2}
 TAG=${TAG:-_s257}
 PKGTYPE=${PKGTYPE:-tgz}
 
@@ -67,9 +67,7 @@ cd $TMP
 
 rm -rf $PRGNAM-$VERSION
 tar xvf $CWD/$PRGNAM-$VERSION.tar.gz
-#cd $PRGNAM-$VERSION
-#Why name folder with borg instead of borgbackup inside archive??? Why? (insert Jackie Why Meme ascii art)
-cd borg-$VERSION
+cd $PRGNAM-$VERSION
 
 chown -R root:root .
 chmod -R a-st,u+rwX,go-w+rX .
