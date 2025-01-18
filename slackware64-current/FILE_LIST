@@ -10,9 +10,11 @@ drwxrwxrwx  1 shinji shinji      512 2025-01-18 08:26 ./llfuse
 drwxrwxrwx  1 shinji shinji      512 2025-01-18 08:38 ./msgpack-python
 -rwxrwxrwx  1 shinji shinji  1823692 2025-01-18 08:50 ./borgbackup/borgbackup-1.4.0-x86_64-1_s257.tgz
 drwxrwxrwx  1 shinji shinji      512 2025-01-18 08:57 ./borgbackup
--rwxrwxrwx  1 shinji shinji     4633 2025-01-18 09:00 ./CHECKSUMS.md5
-drwxrwxrwx  1 shinji shinji      512 2025-01-18 09:10 .
--rwxrwxrwx  1 shinji shinji       54 2025-01-18 09:10 ./FILE_LIST
+-rwxrwxrwx  1 shinji shinji     4633 2025-01-18 09:10 ./CHECKSUMS.md5
+-rwxrwxrwx  1 shinji shinji   192122 2025-01-18 09:21 ./python3-packaging-opt/python3-packaging-opt-24.2-noarch-1_SBo.tgz
+drwxrwxrwx  1 shinji shinji      512 2025-01-18 09:22 .
+-rwxrwxrwx  1 shinji shinji       54 2025-01-18 09:22 ./FILE_LIST
+drwxrwxrwx  1 shinji shinji      512 2025-01-18 09:22 ./python3-packaging-opt
 -rwxrwxrwx  1 shinji shinji    58098 2025-01-06 11:59 ./sysvinit-functions/sysvinit-functions-8.53-x86_64-5_unraid.tgz
 drwxrwxrwx  1 shinji shinji      512 2025-01-17 14:00 ./libffi
 -rwxrwxrwx  1 shinji shinji    48440 2025-01-17 14:00 ./libffi/libffi-3.4.6-x86_64-1.txz
