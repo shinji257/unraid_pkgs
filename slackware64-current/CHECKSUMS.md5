@@ -14,7 +14,7 @@ e73460d4f765631913f3746849fc9c3a  ./CHECKSUMS.md5
 2ba16c27a98ecfed5b1d5043247c7652  ./exiftool/exiftool-13.00-noarch-1_SBo.tgz
 869791aa334b742a0198eefbeed25bb7  ./fastfetch/fastfetch-2.34.0-x86_64-1_SBo.tgz
 1819824fac87b96665f62d43cfd9f72d  ./fdupes/fdupes-1.6.1-x86_64-1_SBo.tgz
-83d68021e8f9e399b8e7f88e08384162  ./FILE_LIST
+a21595a3d12e3a003e5a74e91bc7aa35  ./FILE_LIST
 b904959464463a0f144a956da40e3eb1  ./fio/fio-3.38-x86_64-1_SBo.tgz
 9d4ce2732aa948e1482772a40f834f1f  ./fish/fish-3.7.1-x86_64-1_SBo.tgz
 83c5df2a72fda11689455850e045f1dd  ./fzf/fzf-0.57.0-x86_64-1_SBo.tgz
@@ -47,7 +47,7 @@ a44a88c74dd659a86ce5b76134d33b4c  ./python-pip/python-pip-24.3.1-x86_64-2.txz
 529a9b9c4c27acb58db624837d8bc689  ./python-setuptools/python-setuptools-75.8.0-x86_64-1.txz
 f291a8eaf872a73d8fb9e1a76ab0c861  ./python2/python2-2.7.18-x86_64-8.txz
 f5ca277a0431013f020f709684d94fb3  ./python3/python3-3.12.8-x86_64-1.txz
-c5112439a4a971e626c811e6fba521df  ./python3-packaging-opt/python3-packaging-opt-24.2-noarch-1_SBo.tgz
+376641f5291254fec9b6d119c062e6b3  ./python3-packaging/python3-packaging-24.2-noarch-1_s257.tgz
 e57aa91a481cbd6f8a1d42c9b11ed695  ./python3-pkgconfig/python3-pkgconfig-1.5.5-x86_64-1_SBo.tgz
 7fb4cf5997c1cf83e79e9e01952a40af  ./rar/rar-5.5.0-x86_64-1_SBo.tgz
 3d34098bcba918b44a3d877a1ea60a5d  ./rar2fs/rar2fs-1.29.6-x86_64-2_SBo.tgz
