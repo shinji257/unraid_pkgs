@@ -1,4 +1,4 @@
-drwxrwxrwx  1 shinji shinji      512 2025-01-17 14:01 .
+drwxrwxrwx  1 shinji shinji      512 2025-01-18 01:00 .
 drwxrwxrwx  1 shinji shinji      512 2025-01-16 19:53 ./7zip
 -rwxrwxrwx  1 shinji shinji  1476903 2025-01-16 15:07 ./7zip/7zip-24.09-x86_64-1_SBo.tgz
 drwxrwxrwx  1 shinji shinji      512 2025-01-16 19:54 ./aria2
@@ -9,13 +9,14 @@ drwxrwxrwx  1 shinji shinji      512 2025-01-16 19:54 ./autossh
 -rwxrwxrwx  1 shinji shinji    26996 2025-01-16 16:23 ./autossh/autossh-1.4g-x86_64-1_SBo.tgz
 drwxrwxrwx  1 shinji shinji      512 2025-01-16 19:54 ./axel
 -rwxrwxrwx  1 shinji shinji    63691 2025-01-16 16:26 ./axel/axel-2.17.11-x86_64-3_SBo.tgz
+drwxrwxrwx  1 shinji shinji      512 2025-01-17 00:10 ./bc
+-rwxrwxrwx  1 shinji shinji   117696 2025-01-17 00:09 ./bc/bc-1.08.1-x86_64-1.txz
 drwxrwxrwx  1 shinji shinji      512 2025-01-16 19:54 ./borgbackup
 -rwxrwxrwx  1 shinji shinji  2268427 2025-01-16 17:12 ./borgbackup/borgbackup-1.2.8-x86_64-2_SBo.tgz
 drwxrwxrwx  1 shinji shinji      512 2025-01-16 19:54 ./btop
 -rwxrwxrwx  1 shinji shinji   682313 2025-01-16 17:16 ./btop/btop-1.4.0-x86_64-1_SBo.tgz
 drwxrwxrwx  1 shinji shinji      512 2025-01-16 19:54 ./bwm-ng
 -rwxrwxrwx  1 shinji shinji    51491 2025-01-16 17:17 ./bwm-ng/bwm-ng-0.6.3-x86_64-2_SBo.tgz
--rwxrwxrwx  1 shinji shinji     4360 2025-01-16 19:59 ./CHECKSUMS.md5
 drwxrwxrwx  1 shinji shinji      512 2025-01-16 19:54 ./cksfv
 -rwxrwxrwx  1 shinji shinji    25766 2025-01-16 17:18 ./cksfv/cksfv-1.3.14-x86_64-1_SBo.tgz
 drwxrwxrwx  1 shinji shinji      512 2025-01-16 19:54 ./etherwake
@@ -26,7 +27,7 @@ drwxrwxrwx  1 shinji shinji      512 2025-01-16 19:54 ./fastfetch
 -rwxrwxrwx  1 shinji shinji  1166647 2025-01-16 18:35 ./fastfetch/fastfetch-2.34.0-x86_64-1_SBo.tgz
 drwxrwxrwx  1 shinji shinji      512 2025-01-16 19:54 ./fdupes
 -rwxrwxrwx  1 shinji shinji    22244 2025-01-16 17:19 ./fdupes/fdupes-1.6.1-x86_64-1_SBo.tgz
--rwxrwxrwx  1 shinji shinji       56 2025-01-17 14:01 ./FILE_LIST
+-rwxrwxrwx  1 shinji shinji       56 2025-01-18 01:00 ./FILE_LIST
 drwxrwxrwx  1 shinji shinji      512 2025-01-16 19:54 ./fio
 -rwxrwxrwx  1 shinji shinji  7165395 2025-01-16 17:30 ./fio/fio-3.38-x86_64-1_SBo.tgz
 drwxrwxrwx  1 shinji shinji      512 2025-01-16 19:54 ./fish
@@ -47,6 +48,8 @@ drwxrwxrwx  1 shinji shinji      512 2025-01-16 19:55 ./libjodycode
 -rwxrwxrwx  1 shinji shinji    18402 2025-01-16 18:16 ./libjodycode/libjodycode-3.1.1-x86_64-2_SBo.tgz
 drwxrwxrwx  1 shinji shinji      512 2025-01-16 19:55 ./libmediainfo
 -rwxrwxrwx  1 shinji shinji  4151056 2025-01-16 18:26 ./libmediainfo/libmediainfo-24.12-x86_64-1_SBo.tgz
+drwxrwxrwx  1 shinji shinji      512 2025-01-17 00:10 ./libsodium
+-rwxrwxrwx  1 shinji shinji   183384 2025-01-17 00:10 ./libsodium/libsodium-1.0.20-x86_64-1.txz
 drwxrwxrwx  1 shinji shinji      512 2025-01-16 19:55 ./libzen
 -rwxrwxrwx  1 shinji shinji   709872 2025-01-16 18:19 ./libzen/libzen-0.4.41-x86_64-1_SBo.tgz
 drwxrwxrwx  1 shinji shinji      512 2025-01-16 19:55 ./llfuse
