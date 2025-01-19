@@ -2,7 +2,7 @@
 
 Download the packages and place them in the extra folder on the flash drive.  If you are doing this from a system currently running this is at `/boot/extra`.
 
-To install the package run `installpkg tgz_file`
+To install the package run `installpkg package_file`
 
 All packages built using scripts from SlackBuilds.org or pulled from official repos unless otherwise specified.
 
