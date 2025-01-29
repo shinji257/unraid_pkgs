@@ -1,0 +1,19 @@
+# HOW TO EDIT THIS FILE:
+# The "handy ruler" below makes it easier to edit a package description.  Line
+# up the first '|' above the ':' following the base package name, and the '|'
+# on the right side marks the last column you can put a character in.  You must
+# make exactly 11 lines for the formatting to be correct.  It's also
+# customary to leave one space after the ':'.
+
+      |-----handy-ruler------------------------------------------------------|
+zellij: zellij (A terminal workspace with batteries included)
+zellij:
+zellij: Zellij is designed around the philosophy that one must not sacrifice
+zellij: simplicity for power, taking pride in its great experience out of
+zellij: the box as well as the advanced features it places at its users'
+zellij: fingertips.  Zellij is geared toward beginner and power users alike -
+zellij: allowing deep customizability, personal automation through layouts,
+zellij: true multiplayer collaboration, unique UX features such as floating
+zellij: and stacked panes, and a plugin system allowing one to create
+zellij: plugins in any language that compiles to WebAssembly.
+zellij: Home: https://zellij.dev/
