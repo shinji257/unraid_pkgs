@@ -15,7 +15,7 @@ d121bfde83ef326db2ae83075903181a  ./borgbackup/borgbackup-1.4.0-x86_64-2_s257.tg
 2ba16c27a98ecfed5b1d5043247c7652  ./exiftool/exiftool-13.00-noarch-1_SBo.tgz
 869791aa334b742a0198eefbeed25bb7  ./fastfetch/fastfetch-2.34.0-x86_64-1_SBo.tgz
 1819824fac87b96665f62d43cfd9f72d  ./fdupes/fdupes-1.6.1-x86_64-1_SBo.tgz
-36c244adbcf09a24cd073f6d0abf6c68  ./FILE_LIST
+324e127350ba103b208b9b39ab4c1d8d  ./FILE_LIST
 b904959464463a0f144a956da40e3eb1  ./fio/fio-3.38-x86_64-1_SBo.tgz
 9d4ce2732aa948e1482772a40f834f1f  ./fish/fish-3.7.1-x86_64-1_SBo.tgz
 83c5df2a72fda11689455850e045f1dd  ./fzf/fzf-0.57.0-x86_64-1_SBo.tgz
@@ -65,4 +65,5 @@ d545fdb90916aff41ff37639c60ddefb  ./UASM/UASM-2.57-x86_64-1_SBo.tgz
 574838409404e3e101d65c5b97d22640  ./unrar/unrar-6.2.12-x86_64-1_SBo.tgz
 3ebd7d08c4ff51ca255d1c37bcbcfbd3  ./vim/vim-9.1.1006-x86_64-1.txz
 ff49181b83941a0a856ac089583f7a42  ./wget2/wget2-2.2.0-x86_64-1.txz
+76b4e842efe891572c9d890a11b52d37  ./zellij/zellij-0.41.2-x86_64-1_s257.tgz
 ace005db7241f18470dfa3746011b5e7  ./zsh/zsh-5.9-x86_64-1.txz
