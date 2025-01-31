@@ -1,3 +1,11 @@
+# Requirements
+* Unraid 7 or newer
+  Currently all packages are built on Slackware -current which is the current base of Unraid 7.  They are not tested or guaranteed to work on Unraid 6.12.x.  
+* For Python based packages (like borgbackup) they will require Python 3.12 as that is the version they are built against.  They won't work with Python 9 which is what is used on Slackware 15.
+
+Support thread: https://forums.unraid.net/topic/185363-supportrequests-shinji257s-slackwareunraid-package-repository/
+
+
 # Usage of packages
 
 Download the packages and place them in the extra folder on the flash drive.  If you are doing this from a system currently running this is at `/boot/extra`.
@@ -49,7 +57,7 @@ A full set of usage information is available in the repository wiki.
 |libsodium|||1.0.20|libsodium (Sodium crypto library) Sodium is a library for encryption, decryption, signatures, password hashing and more. It is a portable, cross-compilable, installable, packageable fork of NaCl, with a compatible API, and an extended API to improve usability even further. Its goal is to provide all of the core operations needed to build higher-level cryptographic tools. https://libsodium.org
 |libzen|||0.4.41|This is a mandatory library for libmediainfo.
 |llfuse|||1.5.1|LLFUSE is a set of Python bindings for the low level FUSE API. It requires at least FUSE 2.8.0 and supports both Python 2.x and 3.x.<br>Pulled latest from upstream and updated SlackBuild.
-|mediainfo|libmediainfo||24.12|MediaInfo supplies technical and tag information about a video or audio file.
+|mediainfo|libmediainfo, libzen||24.12|MediaInfo supplies technical and tag information about a video or audio file.
 |mktorrent|||1.1_de7d011|mktorrent is a command line utility to create BitTorrent metainfo files used by trackers and torrent clients. It can create metainfo files  for single files or complete directories in a fast way. It supports multiple trackers.
 |msgpack-python|||1.1.0|It's like JSON, but fast and small.<br><br>MessagePack is an efficient binary serialization format. It lets you exchange data among multiple languages like JSON. But it's faster and smaller. Small integers are encoded into a single byte, and typical short strings require only one extra byte in addition to the strings themselves.<br><br>Copy pulled from Conraid repo
 |ncdu|||1.17|NCurses Disk Usage<br><br>As the name already suggests, ncdu is an NCurses version of the famous old 'du' unix command. It provides a fast and easy interface to your harddrive. Where is your disk space going? Why is your home directory that large? ncdu can answer those questions for you in just a matter of seconds!
