@@ -16,7 +16,7 @@ d121bfde83ef326db2ae83075903181a  ./borgbackup/borgbackup-1.4.0-x86_64-2_s257.tg
 2ba16c27a98ecfed5b1d5043247c7652  ./exiftool/exiftool-13.00-noarch-1_SBo.tgz
 869791aa334b742a0198eefbeed25bb7  ./fastfetch/fastfetch-2.34.0-x86_64-1_SBo.tgz
 1819824fac87b96665f62d43cfd9f72d  ./fdupes/fdupes-1.6.1-x86_64-1_SBo.tgz
-fc99ef30065a063d888da6c7ac8190e7  ./FILE_LIST
+fac5646d02292e8fa7a8db4451150156  ./FILE_LIST
 b904959464463a0f144a956da40e3eb1  ./fio/fio-3.38-x86_64-1_SBo.tgz
 9d4ce2732aa948e1482772a40f834f1f  ./fish/fish-3.7.1-x86_64-1_SBo.tgz
 83c5df2a72fda11689455850e045f1dd  ./fzf/fzf-0.57.0-x86_64-1_SBo.tgz
@@ -27,7 +27,7 @@ dee5cd448d8efb3238fbf851cbcf4052  ./htmlcxx/htmlcxx-0.87-x86_64-2_SBo.tgz
 b669e6197e84d99d540eaf7b413d192a  ./jdupes/jdupes-1.28.0-x86_64-2_SBo.tgz
 242286d1daef7cd852b2848928b8d5a9  ./jsoncpp/jsoncpp-1.9.6-x86_64-1_SBo.tgz
 73ed3d99d00d5c509d515fce5d944e4d  ./lftp/lftp-4.9.3-x86_64-1.txz
-048dfe6b424688f655bf96449e55b656  ./lgogdownloader/lgogdownloader-3.15-x86_64-1_SBo.tgz
+9959bc6e61c4f99e7b44f4fbc6292289  ./lgogdownloader/lgogdownloader-3.16-x86_64-1_s257.tgz
 a0aed28d34fad676e84a29ecca274c4a  ./libffi/libffi-3.4.6-x86_64-1.txz
 c8a0f6b9311803e2c95ff0f503a1891b  ./libjodycode/libjodycode-3.1.1-x86_64-2_SBo.tgz
 123e3cb07aba553883d4355a8d0c3fb8  ./libmediainfo/libmediainfo-24.12-x86_64-1_SBo.tgz
