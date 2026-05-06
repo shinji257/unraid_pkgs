@@ -143,6 +143,8 @@ drwxr-xr-x  3 timpotter staff          96 2026-03-17 18:45 ./tmux
 -rw-r--r--  1 timpotter staff      413000 2026-03-17 18:45 ./tmux/tmux-3.5a-x86_64-1.txz
 drwxr-xr-x  3 timpotter staff          96 2026-03-17 18:45 ./unrar
 -rw-r--r--  1 timpotter staff      544367 2026-03-17 18:45 ./unrar/unrar-6.2.12-x86_64-1_SBo.tgz
+drwxr-xr-x  3 timpotter staff          96 2026-03-17 18:45 ./uv
+-rw-r--r--  1 timpotter staff    23836341 2026-03-17 18:45 ./uv/uv-0.11.10-x86_64.tgz
 drwxr-xr-x  3 timpotter staff          96 2026-03-17 18:45 ./vim
 -rw-r--r--  1 timpotter staff     9150812 2026-03-17 18:45 ./vim/vim-9.1.1006-x86_64-1.txz
 drwxr-xr-x  3 timpotter staff          96 2026-03-17 18:45 ./wget2
